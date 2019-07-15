@@ -3,10 +3,10 @@ package springboot.rabbitmq.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import springboot.rabbitmq.producer.ApiCoreSender;
-import springboot.rabbitmq.producer.ApiPaymentSender;
-import springboot.rabbitmq.producer.ApiReportSender;
-import springboot.rabbitmq.producer.PaymentNotifySender;
+import springboot.rabbitmq.provider.ApiCoreSender;
+import springboot.rabbitmq.provider.ApiPaymentSender;
+import springboot.rabbitmq.provider.ApiReportSender;
+import springboot.rabbitmq.provider.PaymentNotifySender;
 
 @RestController
 public class TestController {
